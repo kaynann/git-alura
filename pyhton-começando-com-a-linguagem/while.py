@@ -6,8 +6,9 @@ numero_secreto = 42
 total_tentativas = 3
 
 while(total_tentativas > 0):
+  print(f'Tentativas restantes: { total_tentativas }')
   numero_chute = int(input("Digite um número: "))
-  print(f'O número digitado é {numero_chute}')
+  print(f'O número digitado é { numero_chute }')
   if(numero_chute == numero_secreto):
     print("Parabéns, você acertou!")
     break
@@ -16,3 +17,4 @@ while(total_tentativas > 0):
   elif(numero_chute < numero_secreto):
     print("Você errou! O número inserido é menor que o número secreto.")
   total_tentativas = total_tentativas - 1
+  print("=" * 70)
