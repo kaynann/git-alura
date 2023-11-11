@@ -23,7 +23,7 @@ def jogar():
       print("Número inválido")
         
     for rodada in range(1, total_tentativas + 1):
-      print(f'Tentativa { rodada } de {total_tentativas} {numero_secreto}')
+      print(f'Tentativa { rodada } de {total_tentativas}')
       numero_chute = int(input("Digite um número entre 1 e 100: "))
       print(f'O número digitado é { numero_chute }')
       
