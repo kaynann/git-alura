@@ -1,4 +1,4 @@
-<h1>Estudando Git e GitHub com Alura</h1>
+<h1>Estudando na plataforma Alura</h1>
 
 >Status: em andamento de estudos;
 >Repositório focado somente para estudos na plataforma Alura;
